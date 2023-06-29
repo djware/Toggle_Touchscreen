@@ -22,3 +22,4 @@ if ($touchscreenEnabled) {
     Write-Host "Touchscreen has been enabled."
 }
 ```
+Please note this disables 'HID-compliant touch screen' driver and doing so will cause it to not work till you enable it again. Make sure to have an alternative input control before disabling your touch screen. Use at your own risk. 
